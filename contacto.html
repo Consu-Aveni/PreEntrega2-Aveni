@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nombre del box de crossfit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-sm">
+        <!-- Logo -->
+        <a class="navbar-brand" href="./index.html"><img src="./img/logo.jpg" alt="Logo"></a>
+
+        <!-- Botón de hamburguesa para dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span>☰</span>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./planes.html">Planes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./horarios.html">Horarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./quienes_somos.html">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nuestras_clases.html">Nuestras clases</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección principal -->
+    <section class="container-fluid main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Formulario de contacto</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="nombre">Apellido:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingresa tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/contacto.png" alt="Imagen de ejemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="./img/logo.jpg" alt="Logo" style="width:100px">
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Teléfono: (123) 456-7890<br>
+                        Email: info@boxdecrossfit.com</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Dirección del Gimnasio<br> Ciudad, Estado, Código Postal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
